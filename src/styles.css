@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+    --cor1: #FE5F2F;
+    --cor2: white;
+    --cor3: black;
+    --corBackground: #FFF4F0;
+    --corLinhas: #00000054;
+}
+
+html{
+    background-color: var(--corBackground);
+}
+
+.btn-search{
+    background-color: var(--corBackground);
+    color: var(--cor1);
+    border-color: var(--cor1);
+}
+
+.input-border{
+    border-color: var(--corLinhas);
+}
+
